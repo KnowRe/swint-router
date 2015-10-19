@@ -1,0 +1,35 @@
+{
+  "name": "swint-router",
+  "version": "0.1.0",
+  "description": "Routing manager for Swint web server",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "eslint lib && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KnowRe/swint-router.git"
+  },
+  "keywords": [
+    "swint",
+    "router",
+    "express"
+  ],
+  "author": "Kurt Cho <kivoloid@gmail.com>",
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KnowRe/swint-router/issues"
+  },
+  "homepage": "https://github.com/KnowRe/swint-router",
+  "dependencies": {
+    "express": "^4.13.3",
+    "swint-helper": "^0.1.7"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "eslint": "*",
+    "request": "^2.65.0",
+    "swint-middleware": "^0.1.1"
+  }
+}
