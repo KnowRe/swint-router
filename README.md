@@ -9,7 +9,7 @@ $ npm install --save swint-router
 ```
 
 ## Option
-* `dir` : `String`, default: `path.join(path.dirname(require.main.filename), 'route')`
+* `dir` : `String`, default: `path.join(path.dirname(require.main.filename), 'router')`
 
 ## Usage
 ```javascript
