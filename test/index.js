@@ -21,7 +21,9 @@ describe('Plain router', function() {
 			}),
 			server;
 
-		fs.mkdirSync(path.join(os.tmpdir(), 'swint-router'));
+		try {
+			fs.mkdirSync(path.join(os.tmpdir(), 'swint-router'));
+		} catch(e) { }
 
 		myRouter.load(myMiddleware);
 
@@ -45,7 +47,9 @@ describe('Plain router', function() {
 	});
 
 	after(function() {
-		fs.unlinkSync(path.join(os.tmpdir(), 'swint-router/post-middleware.txt'));
-		fs.rmdirSync(path.join(os.tmpdir(), 'swint-router'));
+		try {
+			fs.unlinkSync(path.join(os.tmpdir(), 'swint-router/post-middleware.txt'));
+			fs.rmdirSync(path.join(os.tmpdir(), 'swint-router'));
+		} catch(e) { }
 	});
 });

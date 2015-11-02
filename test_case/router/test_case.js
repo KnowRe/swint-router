@@ -7,12 +7,12 @@ exports.info = {
 
 exports.preMiddleware = [
 	'pre-middleware1',
-	[
-		'pre-middleware2',
-		{
+	{
+		name: 'pre-middleware2',
+		options: {
 			string: 'middlewareOptionString'
 		}
-	]
+	}
 ];
 
 exports.postMiddleware = [
