@@ -26,13 +26,13 @@
   },
   "homepage": "https://github.com/KnowRe-Dev/swint-router",
   "dependencies": {
-    "express": "^4.13.4",
+    "express": "^4.14.1",
     "swint-helper": "1.x"
   },
   "devDependencies": {
-    "mocha": "^2.5.3",
-    "eslint": "^2.11.1",
-    "request": "^2.72.0",
+    "mocha": "^3.2.0",
+    "eslint": "^3.14.1",
+    "request": "^2.79.0",
     "swint-middleware": "1.x"
   }
 }
