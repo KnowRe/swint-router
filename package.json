@@ -1,6 +1,6 @@
 {
   "name": "swint-router",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Routing manager for Swint web server",
   "main": "lib/index.js",
   "scripts": {
