@@ -1,4 +1,6 @@
 # swint-router
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/Knowre-Dev/swint-router.svg)](https://greenkeeper.io/)
 Routing manager for Swint web server
 
 **Warning: This is not the final draft yet, so do not use this until its official version is launched**
