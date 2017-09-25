@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/KnowRe-Dev/swint-router",
   "dependencies": {
-    "express": "4.15.4",
+    "express": "5.0.0-alpha.6",
     "swint-helper": "1.2.7"
   },
   "devDependencies": {
