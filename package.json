@@ -33,6 +33,6 @@
     "mocha": "4.0.1",
     "eslint": "4.12.1",
     "request": "2.83.0",
-    "swint-middleware": "1.1.9"
+    "swint-middleware": "1.1.10"
   }
 }
